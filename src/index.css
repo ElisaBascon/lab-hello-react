@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+section {
+  width: 100%;
+  padding: 30px;
+}
+
+section.header {
+  background-color: #1f2536;
+  width: 100%;
+  margin: 20px;
+}
+
+section.header div.mainText{
+  color: #ffff;
+  text-align: left;
+}
+
+section.header div.mainText h1 {
+  font-size: 70px;
+}
+
+section.header div.mainText p {
+  font-size: 20px;
+}
+
+section.header button {
+  padding: 13px 20px 13px 20px;
+  margin-top: 10px;
+  display: block;
+  border: 0;
+  border-radius: 5px;
+}
+
+nav.nav-bar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section.allCards {
+  margin-top: 50px;
+  display: flex;
+}
+
+section.allCards div.card {
+  padding: 20px;
+}
+
+section.allCards div.card img {
+  size: 10px;
+}
+
+section.allCards div.card h3 {
+  text-align: left;
+  padding: 0px 0px 0px 20px;
+}
+
+section.allCards div.card p {
+  text-align: left;
+  padding: 0px 0px 0px 20px;
+}
